@@ -39,4 +39,4 @@ To use this project locally, you need to follow the commands below:
    npm start
    ```
 
-5. Open [http://localhost:3333](http://localhost:3000) to view it in your browser.
+5. Open [http://localhost:3333](http://localhost:3333) to view it in your browser.
