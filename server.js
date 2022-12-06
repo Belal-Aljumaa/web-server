@@ -1,10 +1,12 @@
 import { createServer } from "http";
+import { mainContent } from './content.js';
+
 
 const port = 3333;
 
 createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "text-plain" });
-    res.write("info site");
+    res.write(mainContent);
     res.end();
   })
   .listen(port);
